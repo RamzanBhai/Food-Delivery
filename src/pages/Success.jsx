@@ -19,7 +19,7 @@ const Success = () => {
           <p >Your order has been successfully placed</p>
           <button
             onClick={() => (window.location.href = "/")}
-            className=" absolute right-25 p-2 m-5 bg-green-600 text-white font-bold rounded-lg hover:scale-110"
+            className=" absolute right-25 sm:right-20 p-2 m-5 bg-green-600 text-white font-bold rounded-lg hover:scale-110"
           >
             GO HOME
           </button>
