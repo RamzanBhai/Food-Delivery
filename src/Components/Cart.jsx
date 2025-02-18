@@ -24,7 +24,7 @@ const Item = useSelector((state)=>state.cart)
         <h3 className="font-semibold text-gray-800">Total Amount: Rs.{Item.totalPrice}</h3>
         <hr/>
         {
-          Item.totalQuantity > 0 ?(<Link to='/success'> <button className="bg-green-500 text-white font-bold px-3 py-2 mb-5 mt-3 rounded-lg w-[90vw] lg:w-[25vw]">Checkout</button></Link>):(<Link to='/'><button className="bg-green-500 text-white font-bold px-3 py-2 mb-5 mt-3 rounded-lg w-[90vw] lg:w-[25vw]" onClick={()=>alert("Please select items")}>Checkout</button></Link>)
+          Item.totalQuantity > 0 ?(<Link to='/success'> <button className="bg-green-500 text-white font-bold px-3 py-2 mb-5 mt-3 rounded-lg w-[90vw] lg:w-[25vw] hover:scale-105">Checkout</button></Link>):(<Link to='/'><button className="bg-green-500 text-white font-bold px-3 py-2 mb-5 mt-3 rounded-lg w-[90vw] lg:w-[25vw] hover:scale-105" onClick={()=>alert("Please select items")}>Checkout</button></Link>)
         }
       </div>
      </div>
