@@ -20,7 +20,7 @@ export const FoodCart = () =>{
       }
     }).map((item)=>(
       
-            <div key={item.id} className="font-bold w-[280px] p-5 bg-white flex flex-col gap-2 mb-5 rounded-lg">
+            <div key={item.id} className="font-bold w-[280px] p-5 bg-white flex flex-col gap-2  rounded-lg">
       <img src={item.img} alt="" className="w-auto h-[130px] hover:scale-110 cursor-grab transition-all duration-500 ease-in-out" />
       <div className="flex text-sm justify-between">
         <h2>{item.name}</h2>
